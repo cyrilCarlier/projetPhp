@@ -1,5 +1,5 @@
 <?php
-$servername = 10.69.8.45;
+$servername = "10.69.8.45";
 $username = "root";
 $password = "root";
 $dbname = "stage";
