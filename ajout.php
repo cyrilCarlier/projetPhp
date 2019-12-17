@@ -1,7 +1,7 @@
 <?php
 $servername = "10.69.8.45";
-$username = "root";
-$password = "root";
+$username = "dbuser";
+$password = "mdp";
 $dbname = "stage";
 
 // Create connection
