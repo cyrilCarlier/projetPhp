@@ -2,7 +2,7 @@
 $servername = "10.69.8.45";
 $username = "dbuser";
 $password = "mdp";
-$dbname = "stage";
+$dbname = "stageprod";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
