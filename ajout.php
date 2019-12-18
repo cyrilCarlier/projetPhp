@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 $Xnom = $_POST['prenom'];
 $Xprenom = $_POST['nom'];
 
-$conn->query('INSERT INTO stagiaire (nom, prenom) VALUES ('$Xnom', '$Xprenom');
+$conn->query("INSERT INTO stagiaire (nom, prenom) VALUES ('$Xnom', '$Xprenom')");
 
 $conn->close();
 ?>
