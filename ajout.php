@@ -11,7 +11,10 @@ if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
 }
 
-$conn->query('INSERT INTO stagiaire (nom, prenom) VALUES (\"$_POST['nom']\" , \"$_POST['prenom']\")');
+$Xnom = $_POST['prenom'];
+$Xprenom = $_POST['nom'];
+
+$conn->query('INSERT INTO stagiaire (nom, prenom) VALUES ('$Xnom', '$Xprenom');
 
 $conn->close();
 ?>
